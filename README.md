@@ -12,7 +12,7 @@
 Windows에서 SmartScreen 경고가 뜰 경우 **추가 정보** 클릭 후 **실행**을 클릭합니다.
 
 ### 초기 설정
-**%appdata%\\worship_subtitle\\subtitles\\index.html**에서 **div id="time"**을 찾아 수정합니다.
+**%appdata%\\worship_subtitle\\subtitles\\index.html**에서 <strong>div id="time"</strong>을 찾아 수정합니다.
 
 ```html
 <div id="time">
