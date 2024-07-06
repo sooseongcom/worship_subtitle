@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+   }
+   
+@font-face {
+font-family: 'NanumBarunGothic';
+font-style: normal;
+font-weight: 700;
+src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+}
+
+@font-face {
+font-family: 'NanumBarunGothic';
+font-style: normal;
+font-weight: 300;
+src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+}
+* {
+font-family: 'NanumBarunGothic', sans-serif;
+}
+
+body{
+    background-color: #00ff00;
+}
+
+#worship-data{
+    position: absolute;
+    top: 30px; left: 40px;
+    background-color: #002060;
+
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 40px;
+
+    padding: 10px 10px 10px 10px;
+}
+
+#worship-data #date{
+    text-align: center;
+}
+
+#worship-data .sermon-data{
+    margin: 0 auto;
+}
+
+#worship-data .sermon-data #sermon-title{
+    font-size: 35px;
+    /*-webkit-text-stroke: 1px #000000;*/
+}
+
+#time{
+    position: absolute; overflow: hidden;
+    bottom: 60px;
+    width: calc(100% + 20px);
+    margin: 0 -10px 0 -10px;
+    padding: 20px 0 20px 0;
+    font-size: 45px;
+    color: #ffffff;
+    background-color: #002060;
+}
+
+.scroll-left-text{
+    white-space: nowrap;
+    margin: 0;
+    width: max-content;
+    
+    -moz-transform: translateX(100vw);
+    -webkit-transform: translateX(100vw);
+    transform: translateX(100vw);
+    /*-moz-animation: scroll-left 70s linear infinite;
+    -webkit-animation: scroll-left 70s linear infinite;*/
+    animation: scroll-left 70s linear infinite;
+}
+
+@keyframes scroll-left {
+    0% {
+        /*-moz-transform: translateX(100vw);
+        -webkit-transform: translateX(100vw);*/
+        transform: translateX(100vw);
+    }
+    100% {
+        /*-moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);*/
+        transform: translateX(-100%);
+    }
+}
