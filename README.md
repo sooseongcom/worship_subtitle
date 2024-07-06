@@ -4,7 +4,7 @@
 ## User Manual
 ### System Requirements
 * OS: Windows
-* Architecture: x86_64(AMD64)
+* Architecture: x86-64(AMD64)
 
 ### How to install
 오른쪽 Realeses 목록의 설치 파일을 내려받아 설치합니다.\
