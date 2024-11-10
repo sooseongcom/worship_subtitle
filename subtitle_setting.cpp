@@ -19,7 +19,7 @@ int main(void)
 
 	while (1) {
 		cout << "영상예배 자막 프로그램\n"
-			<< "v 1.0.0\n"
+			<< "v 1.1.0\n"
 			<< "=============================" << endl;
 		cout << "1. 자막 편집 마법사\n"
 			<< "2. 날짜 및 예배 명칭 수정\n"
@@ -141,8 +141,11 @@ int main(void)
 				<< "URL: %appdata%\\worship_subtitle\\subtitles\\index.html\n"
 				<< "너비: 1920\n"
 				<< "높이: 1080\n"
-				<< "[확인]을 클릭한 다음 해당 브라우저 소스가 선택된 상태에서 [필터] 클릭→효과 필터 '크로마키' 추가(#0000ff 유사성 248로 설정)\n"
+				<< "[확인]을 클릭\n"
 				<< "=============================" << endl;
+
+			system("pause");
+			system("cls");
 			break;
 		case 6:
 			system("cls");

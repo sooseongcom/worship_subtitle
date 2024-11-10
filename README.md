@@ -32,8 +32,8 @@ OBS Studio에서 소스 목록 아래의 [+] 버튼을 클릭→브라우저 클
 
 URL: %appdata%\\worship_subtitle\\subtitles\\index.html\
 너비: 1920\
-"높이: 1080\
-[확인]을 클릭한 다음 해당 브라우저 소스가 선택된 상태에서 [필터] 클릭→효과 필터 '크로마키' 추가(#0000ff 유사성 248로 설정)
+높이: 1080\
+[확인]을 클릭
 
 ## Developer Manual
 ### Files

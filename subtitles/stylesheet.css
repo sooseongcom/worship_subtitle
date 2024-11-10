@@ -26,13 +26,14 @@ font-family: 'NanumBarunGothic', sans-serif;
 }
 
 body{
-    background-color: #00ff00;
+    background-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
 }
 
 #worship-data{
     position: absolute;
     top: 30px; left: 40px;
-    background-color: #002060;
+    background-color: #002060d0;
 
     color: #ffffff;
     font-size: 25px;
@@ -63,7 +64,7 @@ body{
     padding: 20px 0 20px 0;
     font-size: 45px;
     color: #ffffff;
-    background-color: #002060;
+    background-color: #002060d0;
 }
 
 .scroll-left-text{
