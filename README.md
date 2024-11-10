@@ -9,7 +9,7 @@
 ### How to install
 아래의 설치파일을 내려받아 설치합니다.
 
-[Download installer for Windows x64](https://github.com/sooseongcom/worship_subtitle/releases/download/v1.0.0/WorshipSubtitleSetup-x64-1.0.0.exe)
+[Download installer for Windows x64](https://github.com/sooseongcom/worship_subtitle/releases/download/v1.1.0/WorshipSubtitleSetup-x64-1.1.0.exe)
 
 웹 브라우저에서 차단 경고가 뜰 경우 **···** 클릭 후 **유지**를 클릭합니다.\
 Windows에서 SmartScreen 경고가 뜰 경우 **추가 정보** 클릭 후 **실행**을 클릭합니다.
