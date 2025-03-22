@@ -4,7 +4,7 @@
 ## User Manual
 ### System Requirements
 * OS: Windows
-* Architecture: AMD64(x64)
+* Architecture: AMD64(x64, Intel64)
 
 ### How to install
 아래의 설치파일을 내려받아 설치합니다.
